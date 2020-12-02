@@ -4,6 +4,6 @@ All my solutions will be included in a single project. I'll try to follow good p
 
 ------
 
-- Day 1: ***** ***** - Solved!
-- Day 2: ***** ***** - Solved!
+- Day 1: * * - Solved!
+- Day 2: * * - Solved!
 - Day 3: 
