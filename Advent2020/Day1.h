@@ -8,6 +8,8 @@
 class Day1
 {
 private:
+    const int NUMBER_SEARCHED = 2020;
+
     std::vector<int> input;
 
     void LoadProblem(std::string filepath);

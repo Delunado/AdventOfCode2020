@@ -2,6 +2,7 @@
 
 #include "Day1.h"
 #include "Day2.h"
+#include "Day3.h"
 
 int main()
 {
@@ -12,4 +13,9 @@ int main()
 
     Day2 day2Problem = Day2("problem2.txt");
     day2Problem.Resolve();
+
+    std::cout << "- - - - - - - - - - - -" << std::endl;
+
+    Day3 day3Problem = Day3("problem3.txt");
+    day3Problem.Resolve();
 }

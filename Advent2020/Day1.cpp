@@ -26,7 +26,7 @@ int Day1::TwoNumbersSum()
 
         for (int j = i; j < input.size(); j++) {
 
-            if (input[i] + input[j] == 2020) {
+            if (input[i] + input[j] == NUMBER_SEARCHED) {
                 solution = input[i] * input[j];
                 break;
             }
@@ -47,11 +47,11 @@ int Day1::ThreeNumbersSum()
         for (int j = i; j < input.size(); j++) {
             int number2 = number1 + input[j];
 
-            if (number2 < 2020) {
+            if (number2 < NUMBER_SEARCHED) {
                 for (int k = j; k < input.size(); k++) {
                     int number3 = number2 + input[k];
 
-                    if (number3 == 2020) {
+                    if (number3 == NUMBER_SEARCHED) {
                         solution = input[i] * input[j] * input[k];
                         break;
                     }
